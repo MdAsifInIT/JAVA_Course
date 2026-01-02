@@ -8,7 +8,7 @@ public class Test {
         System.out.println("Is Sun Up? :");
         boolean isSunUp = sc.nextBoolean();
 
-        
+
         if (isSunUp == true) {
             System.out.println("day");
 
@@ -18,6 +18,7 @@ public class Test {
             System.out.println("night");
         }
 
+        sc.close();
     }
 
 }
